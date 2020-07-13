@@ -9,7 +9,7 @@ const Home = ({ navigation }) => {
   const dispatch = useDispatch()
 
   const addFruit = () => {
-    dispatch(FruitsActions.addFruit())
+    dispatch(FruitsActions.addFruitRequest())
   }
 
   return (
